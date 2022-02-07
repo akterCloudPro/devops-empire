@@ -3,7 +3,10 @@ SonarQube® is an automatic code review tool to detect bugs, vulnerabilities, an
 
 #### Installation as a docker container
 - Clone the repository or download the docker-compose.yml file
-- run ``` docker-compose up ``
+- Execute the command ** docker-compose up **
+
+##### Running containers
+![sonarqube](https://user-images.githubusercontent.com/73134659/152849762-563d047c-a05b-4f9e-8a44-fb6dda9bbb73.JPG)
 
 ##### Once the instances are up and running, Log in to http://IP:9000 using System Administrator credentials:
 ```
