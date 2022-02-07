@@ -15,6 +15,6 @@ sudo apt-get install jenkins
 ```
 
 #### Jenkins login:
+> URL: host ip:8080
 > Default Username : admin
-
 > For default Password (run) : cat /var/lib/jenkins/secrets/initialAdminPassword
