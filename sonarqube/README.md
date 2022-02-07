@@ -1,7 +1,7 @@
 ## SonarQube
 SonarQube® is an automatic code review tool to detect bugs, vulnerabilities, and code smells in your code. It can integrate with your existing workflow to enable continuous code inspection across your project branches and pull requests.
 
-#### Installation as a docker container
+#### Installing and running the local instance of SonarQube as docker container
 - Clone the repository or download the docker-compose.yml file
 - Execute the command ** docker-compose up **
 
