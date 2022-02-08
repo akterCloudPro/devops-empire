@@ -20,3 +20,8 @@ sudo apt-get install jenkins
 > Default Username : admin
 
 > For default Password (run) : cat /var/lib/jenkins/secrets/initialAdminPassword
+
+### Jenkins pipeline implementation (Demo)
+> Spring -> Maven -> Jenkins -> Tomcat
+![jm](https://user-images.githubusercontent.com/73134659/152977097-7ea7b0fe-65f3-4b42-982a-5234b18caa96.JPG)
+
