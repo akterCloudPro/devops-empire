@@ -19,3 +19,11 @@ Apache Tomcat is an open-source Java servlet and Java Server Page container that
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />-->
 </Context>
 ```
+
+##### Creating user
+
+** Add desired user and role in tomcat-users.xml file
+```
+<role rolename="manager-gui"/>
+<user username="akter" password="@kt3r123" roles="manager-gui"/>
+```
