@@ -1,14 +1,14 @@
 ## Apache Tomcat
 Apache Tomcat is an open-source Java servlet and Java Server Page container that lets developers implement an array of enterprise Java applications. Tomcat also runs a HTTP web server environment in which Java code can run.
 
-##### Installation procedure
+### Installation procedure
 - Install openjdk 8
 - wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.75/bin/apache-tomcat-8.5.75.tar.gz
 - sudo tar --xvzf apache-tomcat-8.5.75.tar.gz
 - cd apache-tomcat-8.5.75/bin
 - sudo ./startup.sh 
 
-##### Access Tomcat 8 admin gui from different host-
+### Access Tomcat 8 admin gui from different host-
 
 > sudo nano tomcat_folder/webapps/host-manager/META-INF/context.xml
 
@@ -20,7 +20,7 @@ Apache Tomcat is an open-source Java servlet and Java Server Page container that
 </Context>
 ```
 
-##### Creating user
+### Creating user
 
 **Add desired user and role in tomcat-users.xml file**
 ```
