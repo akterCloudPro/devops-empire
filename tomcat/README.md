@@ -12,7 +12,7 @@ Apache Tomcat is an open-source Java servlet and Java Server Page container that
 
 > sudo nano tomcat_folder/webapps/host-manager/META-INF/context.xml
 
-* Uncomment Valve section as follows *
+*Uncomment Valve section as follows*
 ```
 <Context antiResourceLocking="false" privileged="true" >
   <!--<Valve className="org.apache.catalina.valves.RemoteAddrValve"
@@ -22,7 +22,7 @@ Apache Tomcat is an open-source Java servlet and Java Server Page container that
 
 ##### Creating user
 
-** Add desired user and role in tomcat-users.xml file
+**Add desired user and role in tomcat-users.xml file**
 ```
 <role rolename="manager-gui"/>
 <user username="akter" password="@kt3r123" roles="manager-gui"/>
