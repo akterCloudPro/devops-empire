@@ -27,3 +27,7 @@ Apache Tomcat is an open-source Java servlet and Java Server Page container that
 <role rolename="manager-gui"/>
 <user username="akter" password="@kt3r123" roles="manager-gui"/>
 ```
+### GUI screen - after login
+![apache-tomcat](https://user-images.githubusercontent.com/73134659/152933801-8be1cd9c-c6c1-4685-afdc-c38aec8a4799.JPG)
+
+
