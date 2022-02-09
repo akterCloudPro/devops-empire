@@ -20,10 +20,12 @@ while setting a port would cause this error because Heroku already sets a port i
 ### Missing Required Scripts
 This error is thrown in a Node.js environment if you forget to set a `start script`. Heroku uses this script to start your app so if it is missing, it would throw an H10-App crashed error code message.
 This can be solved by setting a start script in the `package.json`. e.g
+
 ![scr-01](https://user-images.githubusercontent.com/73134659/153249123-97afbb89-31d9-4f3b-aead-a8f6aeefb5f0.JPG)
 
 ### Final Thoughts
 If none of the above solved your problem, you can make a last-ditch attempt by updating all your packages. If this doesn't help and you are in a `Node.js` environment, your last resort would be setting a `node version` in the engine section of your `package.json` file.
+
 ![scr-01](https://user-images.githubusercontent.com/73134659/153249427-8ee1964f-4f46-4264-8027-cd2d956af8cf.JPG)
 
 ### The Unthinkable
