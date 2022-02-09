@@ -10,5 +10,9 @@ Secondly, a buggy Procfile can also come in the form of wrong spacing.
 - Wrong: web : node index.js
 - Correct web: node index.js
 
+### Setting a PORT as a Heroku environment variable
+This would surely crash your app. Heroku automatically sets a Port that can be accessed via process.env.PORT. Setting a port yourself would crash your app. Surprisingly, the command `heroku config` does not display the preset Heroku port so one might be tempted to set another port as an environment variable.
+To see all the preset Heroku environment variables, use the command heroku run printenv.
+
 
 
