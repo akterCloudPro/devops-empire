@@ -14,5 +14,13 @@ Secondly, a buggy Procfile can also come in the form of wrong spacing.
 This would surely crash your app. Heroku automatically sets a Port that can be accessed via `process.env.PORT`. Setting a port yourself would crash your app. Surprisingly, the command `heroku config` does not display the preset Heroku port so one might be tempted to set another port as an environment variable.
 To see all the preset Heroku environment variables, use the command `heroku run printenv`
 
+### Missing Required Environment Variable 
+while setting a port would cause this error because Heroku already sets a port internally, failing to set any required environment variable (e.g your database), would prompt Heroku to greet you with this error.
+
+### Missing Required Scripts
+This error is thrown in a Node.js environment if you forget to set a `start script`. Heroku uses this script to start your app so if it is missing, it would throw an H10-App crashed error code message.
+This can be solved by setting a start script in the `package.json`. e.g
+
+
 
 
